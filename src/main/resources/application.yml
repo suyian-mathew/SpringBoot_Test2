@@ -1,0 +1,8 @@
+spring:
+  thymeleaf:
+    cache: false
+  datasource:
+    #driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///schoolmanage?serverTimezone=UTC
+    username: root
+    password: 123
