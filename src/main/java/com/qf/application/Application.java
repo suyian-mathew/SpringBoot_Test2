@@ -9,7 +9,10 @@ import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 public class Application {
-
+    /**
+     * 测试一个很。。
+     * @param args
+     */
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
