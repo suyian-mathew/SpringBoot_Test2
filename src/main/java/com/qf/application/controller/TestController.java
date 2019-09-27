@@ -12,6 +12,7 @@ public class TestController {
     @ResponseBody
     public String test(){
         System.out.println("有点吊的过滤器");
+        System.out.println("确实是有点吊的过滤器");
         return "一点一滴";
     }
 }
